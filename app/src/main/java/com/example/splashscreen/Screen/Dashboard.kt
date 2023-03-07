@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 @Composable
 fun Dashboard()
 {
+    showBars(flag = true)
     Column (
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
